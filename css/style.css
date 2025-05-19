@@ -1,4 +1,11 @@
 /********** Template CSS **********/
+.logo-header {
+    height: 38px;
+    width: auto;
+    position: fixed;
+    border-radius: 10%;
+    left: -0.5cm; /* mueve 0.5 cm a la izquierda */
+}
 
 .back-to-top {
     position: fixed;
