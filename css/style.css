@@ -4,7 +4,7 @@
     width: auto;
     position: fixed;
     border-radius: 10%;
-    left: -0.5cm; /* mueve 0.5 cm a la izquierda */
+    left: -0.5px; /* mueve 0.5 cm a la izquierda */
 }
 
 .back-to-top {
