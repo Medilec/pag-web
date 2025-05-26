@@ -4,7 +4,11 @@
     width: auto;
     position: fixed;
     border-radius: 10%;
+<<<<<<< HEAD
     left: -0.5px; /* mueve 0.5 cm a la izquierda */
+=======
+    left: -0.001cm; /* mueve 0.5 cm a la izquierda */
+>>>>>>> 4fdb6e32af75f8229cdc0fa28915711e798bd7e3
 }
 
 .back-to-top {
@@ -579,4 +583,31 @@
 
 .copyright a:hover {
     color: var(--bs-primary);
+}
+
+/*** logo whatssapp ***/
+.whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    left: 20px; 
+    z-index: 1000;
+}
+
+.whatsapp-icon-wrapper {
+    background-color: #f2f3f2; /* Verde de WhatsApp */
+    padding: 12px;
+    border-radius: 50%; /* Ícono redondo */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para destacar */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.whatsapp-icon-wrapper:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.whatsapp-icon-wrapper img {
+    width: 30px;
+    height: 30px;
+    display: block;
 }
